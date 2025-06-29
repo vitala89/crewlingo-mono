@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/crewlingo-e2e"
+    },
+    {
+      "path": "./apps/crewlingo"
+    }
+  ]
+}
