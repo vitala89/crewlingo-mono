@@ -33,7 +33,44 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": [
+        "libs/shared/types/*",
+        "libs/shared/utils/*",
+        "libs/shared/constants/*",
+        "libs/shared/i18n/*",
+        "libs/shared/api-client/*",
+        "libs/shared/storage/*",
+        "libs/entities/user/*",
+        "libs/entities/profiles/*",
+        "libs/entities/lesson/*",
+        "libs/entities/achievement/*",
+        "libs/features/career-mode/*",
+        "libs/features/onboarding/*",
+        "libs/features/progress/*",
+        "libs/web/ui/button/*",
+        "libs/web/ui/input/*",
+        "libs/web/ui/modal/*",
+        "libs/web/ui/navbar/*",
+        "libs/web/ui/avatar/*",
+        "libs/web/features/web-career-mode/*",
+        "libs/web/features/web-onboarding/*",
+        "libs/web/features/web-leaderboard/*",
+        "libs/web/features/web-xp-bar/*",
+        "libs/admin/ui/admin-table/*",
+        "libs/admin/ui/admin-user-card/*",
+        "libs/admin/features/admin-users/*",
+        "libs/admin/features/admin-moderation/*",
+        "libs/mobile/ui/mobile-button/*",
+        "libs/mobile/ui/mobile-input/*",
+        "libs/mobile/ui/mobile-modal/*",
+        "libs/mobile/ui/mobile-navbar/*",
+        "libs/mobile/ui/mobile-avatar/*",
+        "libs/mobile/features/mobile-career-mode/*",
+        "libs/mobile/features/mobile-onboarding/*",
+        "libs/mobile/features/mobile-leaderboard/*",
+        "libs/mobile/features/mobile-xp-bar/*"
+      ]
     },
     {
       "plugin": "@nx/expo/plugin",
@@ -105,6 +142,51 @@
         "previewTargetName": "preview",
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": [
+        "libs/shared/types/*",
+        "libs/shared/utils/*",
+        "libs/shared/constants/*",
+        "libs/shared/i18n/*",
+        "libs/shared/api-client/*",
+        "libs/shared/storage/*",
+        "libs/entities/user/*",
+        "libs/entities/profiles/*",
+        "libs/entities/lesson/*",
+        "libs/entities/achievement/*",
+        "libs/features/career-mode/*",
+        "libs/features/onboarding/*",
+        "libs/features/progress/*",
+        "libs/web/ui/button/*",
+        "libs/web/ui/input/*",
+        "libs/web/ui/modal/*",
+        "libs/web/ui/navbar/*",
+        "libs/web/ui/avatar/*",
+        "libs/web/features/web-career-mode/*",
+        "libs/web/features/web-onboarding/*",
+        "libs/web/features/web-leaderboard/*",
+        "libs/web/features/web-xp-bar/*",
+        "libs/admin/ui/admin-table/*",
+        "libs/admin/ui/admin-user-card/*",
+        "libs/admin/features/admin-users/*",
+        "libs/admin/features/admin-moderation/*",
+        "libs/mobile/ui/mobile-button/*",
+        "libs/mobile/ui/mobile-input/*",
+        "libs/mobile/ui/mobile-modal/*",
+        "libs/mobile/ui/mobile-navbar/*",
+        "libs/mobile/ui/mobile-avatar/*",
+        "libs/mobile/features/mobile-career-mode/*",
+        "libs/mobile/features/mobile-onboarding/*",
+        "libs/mobile/features/mobile-leaderboard/*",
+        "libs/mobile/features/mobile-xp-bar/*"
+      ],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],
