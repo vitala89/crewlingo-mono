@@ -41,6 +41,33 @@
     },
     {
       "path": "./libs/shared/i18n"
+    },
+    {
+      "path": "./libs/shared/api-client"
+    },
+    {
+      "path": "./libs/shared/storage"
+    },
+    {
+      "path": "./libs/entities/user"
+    },
+    {
+      "path": "./libs/entities/profiles"
+    },
+    {
+      "path": "./libs/entities/lesson"
+    },
+    {
+      "path": "./libs/entities/achievement"
+    },
+    {
+      "path": "./libs/features/career-mode"
+    },
+    {
+      "path": "./libs/features/onboarding"
+    },
+    {
+      "path": "./libs/features/progress"
     }
   ]
 }

@@ -38,7 +38,16 @@
         "libs/shared/types/*",
         "libs/shared/utils/*",
         "libs/shared/constants/*",
-        "libs/shared/i18n/*"
+        "libs/shared/i18n/*",
+        "libs/shared/api-client/*",
+        "libs/shared/storage/*",
+        "libs/entities/user/*",
+        "libs/entities/profiles/*",
+        "libs/entities/lesson/*",
+        "libs/entities/achievement/*",
+        "libs/features/career-mode/*",
+        "libs/features/onboarding/*",
+        "libs/features/progress/*"
       ]
     },
     {
@@ -119,7 +128,16 @@
         "libs/shared/types/*",
         "libs/shared/utils/*",
         "libs/shared/constants/*",
-        "libs/shared/i18n/*"
+        "libs/shared/i18n/*",
+        "libs/shared/api-client/*",
+        "libs/shared/storage/*",
+        "libs/entities/user/*",
+        "libs/entities/profiles/*",
+        "libs/entities/lesson/*",
+        "libs/entities/achievement/*",
+        "libs/features/career-mode/*",
+        "libs/features/onboarding/*",
+        "libs/features/progress/*"
       ],
       "options": {
         "typecheck": {
