@@ -1,9 +1,12 @@
-export function CrewlingoWebButton() {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to CrewlingoWebButton!</h1>
-    </div>
-  );
+import * as React from "react";
+
+export interface WebUIButtonProps {
+  children: React.ReactNode;
+  onClick?: () => void;
 }
 
-export default CrewlingoWebButton;
+export const WebButton: React.FC<WebUIButtonProps> = ({ children, onClick }) => (
+  <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded" onClick={onClick}>
+    {children}
+  </button>
+);

@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/web/ui/web-button"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {
