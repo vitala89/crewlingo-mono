@@ -1,1 +1,1 @@
-export * from './lib/input.js';
+export * from './lib/web-input.js';

@@ -1,7 +1,7 @@
-import { navbar } from './navbar.js';
+import { webNavbar } from './web-navbar.js';
 
-describe('navbar', () => {
+describe('webNavbar', () => {
   it('should work', () => {
-    expect(navbar()).toEqual('navbar');
+    expect(webNavbar()).toEqual('webNavbar');
   })
 })

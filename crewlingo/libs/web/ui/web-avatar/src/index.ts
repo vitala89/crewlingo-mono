@@ -1,1 +1,1 @@
-export * from './lib/avatar.js';
+export * from './lib/web-avatar.js';

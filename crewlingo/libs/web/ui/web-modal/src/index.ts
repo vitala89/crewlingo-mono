@@ -1,1 +1,1 @@
-export * from './lib/modal.js';
+export * from './lib/web-modal.js';

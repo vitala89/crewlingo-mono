@@ -1,3 +1,3 @@
 export function mobileAvatar(): string {
-  return 'mobile-web-avatar';
+  return 'mobile-web-webAvatar';
 }

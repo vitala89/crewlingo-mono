@@ -2,6 +2,6 @@ import { mobileNavbar } from './mobile-navbar.js';
 
 describe('mobileNavbar', () => {
   it('should work', () => {
-    expect(mobileNavbar()).toEqual('mobile-web-navbar');
+    expect(mobileNavbar()).toEqual('mobile-web-webNavbar');
   })
 })

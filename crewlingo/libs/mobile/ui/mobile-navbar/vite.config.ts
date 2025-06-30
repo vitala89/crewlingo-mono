@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../../../../node_modules/.vite/libs/mobile/ui/mobile-web-navbar',
+  cacheDir: '../../../../node_modules/.vite/libs/mobile/ui/mobile-web-webNavbar',
   plugins: [],
   // Uncomment this if you are using workers.
   // worker: {

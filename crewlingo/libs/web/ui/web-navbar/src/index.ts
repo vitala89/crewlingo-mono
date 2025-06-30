@@ -1,1 +1,1 @@
-export * from './lib/navbar.js';
+export * from './lib/web-navbar.js';

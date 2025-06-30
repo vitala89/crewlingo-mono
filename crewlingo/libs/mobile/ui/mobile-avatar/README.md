@@ -1,7 +1,7 @@
-# mobile-avatar
+# mobile-webAvatar
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test mobile-avatar` to execute the unit tests via [Vitest](https://vitest.dev/).
+Run `nx test mobile-webAvatar` to execute the unit tests via [Vitest](https://vitest.dev/).

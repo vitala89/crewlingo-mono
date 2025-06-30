@@ -2,6 +2,6 @@ import { mobileModal } from './mobile-modal.js';
 
 describe('mobileModal', () => {
   it('should work', () => {
-    expect(mobileModal()).toEqual('mobile-web-modal');
+    expect(mobileModal()).toEqual('mobile-web-webModal');
   })
 })

@@ -1,3 +1,3 @@
 export function mobileButton(): string {
-  return 'mobile-web-button';
+  return 'mobile-web-webButton';
 }

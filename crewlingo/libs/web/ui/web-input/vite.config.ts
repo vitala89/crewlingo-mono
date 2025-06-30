@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../../../../node_modules/.vite/libs/web/ui/web-input',
+  cacheDir: '../../../../node_modules/.vite/libs/web/ui/web-webInput',
   plugins: [],
   // Uncomment this if you are using workers.
   // worker: {
