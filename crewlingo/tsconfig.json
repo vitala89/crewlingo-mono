@@ -8,6 +8,18 @@
     },
     {
       "path": "./apps/mobile-e2e"
+    },
+    {
+      "path": "./apps/web-e2e"
+    },
+    {
+      "path": "./apps/web"
+    },
+    {
+      "path": "./apps/admin-e2e"
+    },
+    {
+      "path": "./apps/admin"
     }
   ]
 }
