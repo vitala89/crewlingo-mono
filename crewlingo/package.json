@@ -75,7 +75,13 @@
     "apps/*",
     "libs/shared/*",
     "libs/entities/*",
-    "libs/features/*"
+    "libs/features/*",
+    "libs/web/ui/*",
+    "libs/web/features/*",
+    "libs/admin/ui/*",
+    "libs/admin/features/*",
+    "libs/mobile/ui/*",
+    "libs/mobile/features/*"
   ],
   "dependencies": {
     "@expo/metro-config": "~0.19.4",

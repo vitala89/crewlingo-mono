@@ -68,6 +68,72 @@
     },
     {
       "path": "./libs/features/progress"
+    },
+    {
+      "path": "./libs/web/ui/button"
+    },
+    {
+      "path": "./libs/web/ui/input"
+    },
+    {
+      "path": "./libs/web/ui/modal"
+    },
+    {
+      "path": "./libs/web/ui/navbar"
+    },
+    {
+      "path": "./libs/web/ui/avatar"
+    },
+    {
+      "path": "./libs/web/features/web-career-mode"
+    },
+    {
+      "path": "./libs/web/features/web-onboarding"
+    },
+    {
+      "path": "./libs/web/features/web-leaderboard"
+    },
+    {
+      "path": "./libs/web/features/web-xp-bar"
+    },
+    {
+      "path": "./libs/admin/ui/admin-table"
+    },
+    {
+      "path": "./libs/admin/ui/admin-user-card"
+    },
+    {
+      "path": "./libs/admin/features/admin-users"
+    },
+    {
+      "path": "./libs/admin/features/admin-moderation"
+    },
+    {
+      "path": "./libs/mobile/ui/mobile-button"
+    },
+    {
+      "path": "./libs/mobile/ui/mobile-input"
+    },
+    {
+      "path": "./libs/mobile/ui/mobile-modal"
+    },
+    {
+      "path": "./libs/mobile/ui/mobile-navbar"
+    },
+    {
+      "path": "./libs/mobile/ui/mobile-avatar"
+    },
+    {
+      "path": "./libs/mobile/features/mobile-career-mode"
+    },
+    {
+      "path": "./libs/mobile/features/mobile-onboarding"
+    },
+    {
+      "path": "./libs/mobile/features/mobile-leaderboard"
+    },
+    {
+      "path": "./libs/mobile/features/mobile-xp-bar"
     }
   ]
 }
