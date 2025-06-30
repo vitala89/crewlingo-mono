@@ -33,7 +33,13 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": [
+        "libs/shared/types/*",
+        "libs/shared/utils/*",
+        "libs/shared/constants/*",
+        "libs/shared/i18n/*"
+      ]
     },
     {
       "plugin": "@nx/expo/plugin",
@@ -105,6 +111,20 @@
         "previewTargetName": "preview",
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": [
+        "libs/shared/types/*",
+        "libs/shared/utils/*",
+        "libs/shared/constants/*",
+        "libs/shared/i18n/*"
+      ],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],

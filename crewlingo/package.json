@@ -72,7 +72,8 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "libs/shared/*"
   ],
   "dependencies": {
     "@expo/metro-config": "~0.19.4",

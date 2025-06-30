@@ -26,6 +26,21 @@
     },
     {
       "path": "./apps/api"
+    },
+    {
+      "path": "./libs/shared/types"
+    },
+    {
+      "path": "./libs/shared/utils"
+    },
+    {
+      "path": "./libs/shared/constants"
+    },
+    {
+      "path": "./libs/shared/i18n"
+    },
+    {
+      "path": "./libs/shared/i18n"
     }
   ]
 }
