@@ -1,3 +1,3 @@
 export function mobileInput(): string {
-  return 'mobile-input';
+  return 'mobile-web-input';
 }

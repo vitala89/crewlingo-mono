@@ -1,3 +1,3 @@
 export function mobileNavbar(): string {
-  return 'mobile-navbar';
+  return 'mobile-web-navbar';
 }

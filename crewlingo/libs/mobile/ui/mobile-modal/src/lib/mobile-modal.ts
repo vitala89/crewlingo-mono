@@ -1,3 +1,3 @@
 export function mobileModal(): string {
-  return 'mobile-modal';
+  return 'mobile-web-modal';
 }
