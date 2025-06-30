@@ -157,11 +157,11 @@
         "libs/features/career-mode/*",
         "libs/features/onboarding/*",
         "libs/features/progress/*",
-        "libs/web/ui/button/*",
-        "libs/web/ui/input/*",
-        "libs/web/ui/modal/*",
-        "libs/web/ui/navbar/*",
-        "libs/web/ui/avatar/*",
+        "libs/web/ui/web-button/*",
+        "libs/web/ui/web-input/*",
+        "libs/web/ui/web-modal/*",
+        "libs/web/ui/web-navbar/*",
+        "libs/web/ui/web-avatar/*",
         "libs/web/features/web-career-mode/*",
         "libs/web/features/web-onboarding/*",
         "libs/web/features/web-leaderboard/*",
@@ -205,7 +205,8 @@
       },
       "library": {
         "style": "tailwind",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "vitest"
       }
     }
   }

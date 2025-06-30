@@ -1,1 +1,1 @@
-export * from './lib/web-button.js';
+export * from './lib/web-button';
