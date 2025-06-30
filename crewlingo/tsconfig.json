@@ -4,28 +4,10 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/mobile"
-    },
-    {
-      "path": "./apps/mobile-e2e"
-    },
-    {
       "path": "./apps/web-e2e"
     },
     {
       "path": "./apps/web"
-    },
-    {
-      "path": "./apps/admin-e2e"
-    },
-    {
-      "path": "./apps/admin"
-    },
-    {
-      "path": "./apps/api-e2e"
-    },
-    {
-      "path": "./apps/api"
     },
     {
       "path": "./libs/shared/types"
@@ -35,9 +17,6 @@
     },
     {
       "path": "./libs/shared/constants"
-    },
-    {
-      "path": "./libs/shared/i18n"
     },
     {
       "path": "./libs/shared/i18n"
@@ -134,6 +113,21 @@
     },
     {
       "path": "./libs/mobile/features/mobile-xp-bar"
+    },
+    {
+      "path": "./apps/mobile"
+    },
+    {
+      "path": "./apps/api-e2e"
+    },
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./apps/admin-e2e"
+    },
+    {
+      "path": "./apps/admin"
     }
   ]
 }

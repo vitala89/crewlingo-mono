@@ -28,6 +28,7 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@swc/jest": "~0.2.36",
+    "@tailwindcss/postcss": "^4.1.11",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-native": "~5.4.3",
     "@testing-library/react": "16.1.0",
@@ -58,7 +59,6 @@
     "nx": "21.2.1",
     "postcss": "8.4.38",
     "prettier": "^2.6.2",
-    "prettier-plugin-tailwindcss": "^0.5.11",
     "react-test-renderer": "~18.3.1",
     "tailwindcss": "^4.1.11",
     "ts-jest": "^29.1.0",
@@ -81,7 +81,9 @@
     "libs/admin/ui/*",
     "libs/admin/features/*",
     "libs/mobile/ui/*",
-    "libs/mobile/features/*"
+    "libs/mobile/features/*",
+    "mobile",
+    "apps/mobile/apps/*"
   ],
   "dependencies": {
     "@expo/metro-config": "~0.19.4",
