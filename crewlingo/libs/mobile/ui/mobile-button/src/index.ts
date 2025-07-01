@@ -1,1 +1,1 @@
-export * from './lib/mobile-button.js';
+export * from './lib/mobile-button';
