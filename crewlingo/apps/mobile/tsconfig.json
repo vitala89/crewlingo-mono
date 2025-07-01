@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/mobile/mobile-i18n"
+    },
+    {
       "path": "../../libs/mobile/ui/mobile-button"
     },
     {
