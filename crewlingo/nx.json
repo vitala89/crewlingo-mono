@@ -64,7 +64,9 @@
         "libs/mobile/features/mobile-career-mode/*",
         "libs/mobile/features/mobile-onboarding/*",
         "libs/mobile/features/mobile-leaderboard/*",
-        "libs/mobile/features/mobile-xp-bar/*"
+        "libs/mobile/features/mobile-xp-bar/*",
+        "libs/web/web-i18n/*",
+        "libs/admin/admin-i18n/*"
       ]
     },
     {
@@ -178,7 +180,9 @@
         "libs/mobile/features/mobile-career-mode/*",
         "libs/mobile/features/mobile-onboarding/*",
         "libs/mobile/features/mobile-leaderboard/*",
-        "libs/mobile/features/mobile-xp-bar/*"
+        "libs/mobile/features/mobile-xp-bar/*",
+        "libs/web/web-i18n/*",
+        "libs/admin/admin-i18n/*"
       ],
       "options": {
         "typecheck": {

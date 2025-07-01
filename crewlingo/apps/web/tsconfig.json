@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/web/web-i18n"
+    },
+    {
       "path": "../../libs/web/ui/web-button"
     },
     {

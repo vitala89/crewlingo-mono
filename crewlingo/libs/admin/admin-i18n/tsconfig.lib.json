@@ -7,14 +7,14 @@
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "emitDeclarationOnly": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["node"],
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "allowSyntheticDefaultImports": true
+    "types": ["node"]
   },
-  "include": ["src/**/*.ts", "src/**/*.json"],
-  "references": [],
+  "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../../shared/i18n/tsconfig.lib.json"
+    }
+  ],
   "exclude": [
     "vite.config.ts",
     "vite.config.mts",

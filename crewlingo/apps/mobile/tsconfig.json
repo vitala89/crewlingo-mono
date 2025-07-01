@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/mobile/ui/mobile-button"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ]

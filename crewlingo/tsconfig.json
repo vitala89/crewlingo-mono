@@ -131,6 +131,21 @@
     },
     {
       "path": "./tools/tailwind-sync-plugin"
+    },
+    {
+      "path": "./libs/shared/i18n"
+    },
+    {
+      "path": "./libs/shared/i18n"
+    },
+    {
+      "path": "./libs/web/web-i18n"
+    },
+    {
+      "path": "./libs/admin/admin-i18n"
+    },
+    {
+      "path": "./libs/mobile/mobile-i18n"
     }
   ]
 }
