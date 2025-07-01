@@ -239,7 +239,7 @@ export function NxWelcome({ title }: { title: string }) {
       transform: translateX(0.25rem);
     }
     #other-links {}
-    .button-pill {
+    .webButton-pill {
       padding: 1.5rem 2rem;
       margin-bottom: 2rem;
       transition-duration: 300ms;
@@ -250,7 +250,7 @@ export function NxWelcome({ title }: { title: string }) {
       align-items: center;
       display: flex;
     }
-    .button-pill svg {
+    .webButton-pill svg {
       transition-property: background-color, border-color, color, fill, stroke,
       opacity, box-shadow, transform, filter, backdrop-filter,
       -webkit-backdrop-filter;
@@ -259,7 +259,7 @@ export function NxWelcome({ title }: { title: string }) {
       flex-shrink: 0;
       width: 3rem;
     }
-    .button-pill > span {
+    .webButton-pill > span {
       letter-spacing: -0.025em;
       font-weight: 400;
       font-size: 1.125rem;
@@ -267,14 +267,14 @@ export function NxWelcome({ title }: { title: string }) {
       padding-left: 1rem;
       padding-right: 1rem;
     }
-    .button-pill span span {
+    .webButton-pill span span {
       display: block;
       font-size: 0.875rem;
       font-weight: 300;
       line-height: 1.25rem;
     }
-    .button-pill:hover svg,
-    .button-pill:hover {
+    .webButton-pill:hover svg,
+    .webButton-pill:hover {
       color: rgba(255, 255, 255, 1) !important;
     }
     #nx-console:hover {
@@ -818,7 +818,7 @@ export function NxWelcome({ title }: { title: string }) {
                 <span># Generate UI lib</span>
                 nx g @nx/react:lib ui
                 <span># Add a component</span>
-                nx g @nx/react:component ui/src/lib/button
+                nx g @nx/react:component ui/src/lib/webButton
               </pre>
             </details>
           </div>

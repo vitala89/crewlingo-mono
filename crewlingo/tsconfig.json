@@ -49,19 +49,19 @@
       "path": "./libs/features/progress"
     },
     {
-      "path": "./libs/web/ui/button"
+      "path": "./libs/web/ui/web-button"
     },
     {
-      "path": "./libs/web/ui/input"
+      "path": "./libs/web/ui/web-input"
     },
     {
-      "path": "./libs/web/ui/modal"
+      "path": "./libs/web/ui/web-modal"
     },
     {
-      "path": "./libs/web/ui/navbar"
+      "path": "./libs/web/ui/web-navbar"
     },
     {
-      "path": "./libs/web/ui/avatar"
+      "path": "./libs/web/ui/web-avatar"
     },
     {
       "path": "./libs/web/features/web-career-mode"
