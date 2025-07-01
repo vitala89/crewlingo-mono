@@ -2,5 +2,9 @@
   "welcome": "Welcome aboard, Cadet!",
   "start": "Start",
   "language": "Language",
-  "career_mode": "Career Mode"
+  "career_mode": "Career Mode",
+  "welcomeScreen": "Maritime English for Seafarers",
+  "getStarted": "Get Started",
+  "alreadyHaveAnAccount": "Already have an account",
+  "crewLingo": "crewlingo",
 }
