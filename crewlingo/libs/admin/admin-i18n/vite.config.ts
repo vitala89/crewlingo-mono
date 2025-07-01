@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../../../node_modules/.vite/libs/shared/i18n',
+  cacheDir: '../../../node_modules/.vite/libs/admin/admin-i18n',
   plugins: [],
   // Uncomment this if you are using workers.
   // worker: {
