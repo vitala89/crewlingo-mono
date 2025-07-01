@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "update-tailwind-sources": {
+      "factory": "./src/generators/update-tailwind-sources/generator",
+      "schema": "./src/generators/update-tailwind-sources/schema.json",
+      "description": "Update @source directives in app's styles.css"
+    }
+  }
+}

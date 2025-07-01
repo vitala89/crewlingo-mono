@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "appName": {
+      "type": "string",
+      "description": "Name of the app"
+    },
+    "stylesPath": {
+      "type": "string",
+      "description": "Path to styles.css"
+    }
+  },
+  "required": ["appName", "stylesPath"]
+}

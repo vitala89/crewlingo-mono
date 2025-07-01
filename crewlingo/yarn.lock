@@ -3674,6 +3674,17 @@
     minimatch "9.0.3"
     tslib "^2.3.0"
 
+"@nx/plugin@21.2.1":
+  version "21.2.1"
+  resolved "https://registry.yarnpkg.com/@nx/plugin/-/plugin-21.2.1.tgz#7eef7643fc3d1a57511f28cc1bd0b88c2cbd57f0"
+  integrity sha512-H5zJ77DRCPn/T+XmkvJxUckWwZvtoKwbbJL794+0XvNsc+vNyCneq0RVTDDFjX38m0aEFPZeyC0AHWgigZgG0w==
+  dependencies:
+    "@nx/devkit" "21.2.1"
+    "@nx/eslint" "21.2.1"
+    "@nx/jest" "21.2.1"
+    "@nx/js" "21.2.1"
+    tslib "^2.3.0"
+
 "@nx/react@21.2.1":
   version "21.2.1"
   resolved "https://registry.npmjs.org/@nx/react/-/react-21.2.1.tgz"
@@ -6444,7 +6455,7 @@ autoprefixer@10.4.13:
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
 
-autoprefixer@^10.4.14, autoprefixer@^10.4.21, autoprefixer@^10.4.9:
+autoprefixer@^10.4.14, autoprefixer@^10.4.9:
   version "10.4.21"
   resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.21.tgz"
   integrity sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ==
