@@ -53,5 +53,6 @@
   "email": "Email",
   "password": "Password",
   "back": "Back",
-  "next": "Next"
+  "next": "Next",
+  "pleaseFillAllFields": "Please fill all fields"
 }

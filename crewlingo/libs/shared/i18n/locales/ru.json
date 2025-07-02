@@ -53,5 +53,6 @@
   "continueAsGuest": "Продолжить как гость",
   "name": "Имя",
   "email": "Электронная почта",
-  "password": "Пароль"
+  "password": "Пароль",
+  "pleaseFillAllFields": "Пожалуйста, заполните все поля"
 }

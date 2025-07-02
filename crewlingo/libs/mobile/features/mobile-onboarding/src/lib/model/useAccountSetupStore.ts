@@ -10,8 +10,10 @@ export interface AccountSetupState {
   notificationsAllowed: boolean;
   mode: string;
   department: string;
-  // Добавь, если что-то понадобится ещё
+  userId?: string;
+  profile?: any;
   setField: (field: string, value: any) => void;
+  setProfile: (profile: any) => void;
 }
 
 export const useAccountSetupStore = create<AccountSetupState>((set) => ({
@@ -24,5 +26,8 @@ export const useAccountSetupStore = create<AccountSetupState>((set) => ({
   notificationsAllowed: false,
   mode: "",
   department: "",
+  userId: undefined,
+  profile: undefined,
   setField: (field, value) => set({ [field]: value }),
+  setProfile: (profile) => set({ profile }),
 }));

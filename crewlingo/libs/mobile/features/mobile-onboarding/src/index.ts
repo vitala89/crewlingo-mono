@@ -1,4 +1,6 @@
 
+export * from './lib/components/home/home';
+
 export * from './lib/components/account-setup-auth-step/account-setup-auth-step';
 
 export * from './lib/components/account-setup-career-path-step/account-setup-career-path-step';
@@ -24,3 +26,5 @@ export * from './lib/components/onboarding-mascot-screen/onboarding-mascot-scree
 export * from './lib/components/welcome-screen/welcome-screen';
 export * from './lib/components/launch-screen/launch-screen';
 export * from './lib/mobile-onboarding';
+
+export * from './lib/model/useAccountSetupStore';
