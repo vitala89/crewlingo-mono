@@ -1,3 +1,4 @@
+import 'react-native-url-polyfill/auto';
 import React, { useState } from "react";
 import '@crewlingo/mobile-i18n'; // 1 раз, до App
 

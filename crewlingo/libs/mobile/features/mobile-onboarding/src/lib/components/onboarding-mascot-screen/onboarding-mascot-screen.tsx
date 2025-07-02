@@ -22,7 +22,7 @@ export const OnboardingMascotScreen: React.FC<OnboardingMascotScreenProps> = ({
         style={tw`absolute top-12 left-5 z-10`}
         onPress={onBack}
       >
-        <Ionicons name="checkmark-circle" size={32} color="green" />
+        <Ionicons name="arrow-back" size={32} color="#6b7280" />
       </TouchableOpacity>
 
       {/* Center mascot & speech bubble */}
