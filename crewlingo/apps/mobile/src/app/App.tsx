@@ -1,22 +1,28 @@
-import { LaunchScreen } from '@crewlingo/mobile-onboarding';
-import { WelcomeScreen } from '@crewlingo/mobile-onboarding';
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import '@crewlingo/mobile-i18n'; // 1 раз, до App
+
+import { LaunchScreen } from "@crewlingo/mobile-onboarding";
+import { WelcomeScreen } from "@crewlingo/mobile-onboarding";
+import { OnboardingMascotScreen } from "@crewlingo/mobile-onboarding";
 
 export default function App() {
-  const [showWelcome, setShowWelcome] = useState(false);
+  const [screen, setScreen] = useState<"launch" | "welcome" | "mascot">("launch");
 
-  if (!showWelcome) {
-    return <LaunchScreen onFinish={() => setShowWelcome(true)} />;
-  }
-
-  return (
-    <WelcomeScreen
-      onGetStarted={() => {
-        /* навигация к регистрации */
-      }}
-      onSignIn={() => {
-        /* навигация к логину */
-      }}
-    />
-  );
+  if (screen === "launch")
+    return <LaunchScreen onFinish={() => setScreen("welcome")} />;
+  if (screen === "welcome")
+    return (
+      <WelcomeScreen
+        onGetStarted={() => setScreen("mascot")}
+        onSignIn={() => {/* add your sign in logic */}}
+      />
+    );
+  if (screen === "mascot")
+    return (
+      <OnboardingMascotScreen
+        onContinue={() => {/* далее: например, setScreen("next") */}}
+        onBack={() => setScreen("welcome")}
+      />
+    );
+  return null;
 }
