@@ -3,6 +3,7 @@
     "name": "Mobile",
     "slug": "@crewlingo/mobile",
     "version": "1.0.0",
+    "scheme": "crewlingo",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

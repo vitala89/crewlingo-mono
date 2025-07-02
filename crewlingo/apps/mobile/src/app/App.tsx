@@ -1,29 +1,52 @@
 import 'react-native-url-polyfill/auto';
-import React, { useState } from "react";
-import '@crewlingo/mobile-i18n'; // 1 раз, до App
+import React, { useEffect } from "react";
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import '@crewlingo/mobile-i18n';
 
 import { LaunchScreen } from "@crewlingo/mobile-onboarding";
 import { WelcomeScreen } from "@crewlingo/mobile-onboarding";
 import { OnboardingMascotScreen } from "@crewlingo/mobile-onboarding";
+// импортируй другие шаги по мере готовности
+
+const Stack = createStackNavigator();
 
 export default function App() {
-  const [screen, setScreen] = useState<"launch" | "welcome" | "mascot">("launch");
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Launch" screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Launch" component={LaunchScreenWrapper} />
+        <Stack.Screen name="Welcome" component={WelcomeScreenWrapper} />
+        <Stack.Screen name="Mascot" component={OnboardingMascotScreenWrapper} />
+        {/* ...other steps */}
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
-  if (screen === "launch")
-    return <LaunchScreen onFinish={() => setScreen("welcome")} />;
-  if (screen === "welcome")
-    return (
-      <WelcomeScreen
-        onGetStarted={() => setScreen("mascot")}
-        onSignIn={() => {/* add your sign in logic */}}
-      />
-    );
-  if (screen === "mascot")
-    return (
-      <OnboardingMascotScreen
-        onContinue={() => {/* далее: например, setScreen("next") */}}
-        onBack={() => setScreen("welcome")}
-      />
-    );
-  return null;
+// Обертки нужны для передачи navigation
+function LaunchScreenWrapper({ navigation }: any) {
+  useEffect(() => {
+    const timer = setTimeout(() => navigation.replace("Welcome"), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+  return <LaunchScreen onFinish={() => navigation.replace("Welcome")} />;
+}
+
+function WelcomeScreenWrapper({ navigation }: any) {
+  return (
+    <WelcomeScreen
+      onGetStarted={() => navigation.navigate("Mascot")}
+      onSignIn={() => {/* навигация к экрану логина */}}
+    />
+  );
+}
+
+function OnboardingMascotScreenWrapper({ navigation }: any) {
+  return (
+    <OnboardingMascotScreen
+      onContinue={() => {/* например, navigation.navigate("NextStep") */}}
+      onBack={() => navigation.goBack()}
+    />
+  );
 }
