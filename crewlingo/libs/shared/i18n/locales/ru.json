@@ -2,5 +2,12 @@
   "welcome": "Добро пожаловать, Кадет!",
   "start": "Старт",
   "language": "Язык",
-  "career_mode": "Карьерный режим"
+  "career_mode": "Карьерный режим",
+  "crewLingo": "Crewlingo",
+  "welcomeScreen": "Английский для моряков",
+  "getStarted": "Начать",
+  "alreadyHaveAnAccount": "У меня уже есть аккаунт",
+  "onboardingMascotGreeting": "Привет! Я Пинг — твой гид в Crewlingo!",
+  "continue": "Продолжить",
+  "careerMode": "Карьерный режим"
 }

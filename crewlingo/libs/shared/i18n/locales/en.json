@@ -5,6 +5,9 @@
   "career_mode": "Career Mode",
   "welcomeScreen": "Maritime English for Seafarers",
   "getStarted": "Get Started",
-  "alreadyHaveAnAccount": "Already have an account",
-  "crewLingo": "crewlingo",
+  "alreadyHaveAnAccount": "I already have an account",
+  "crewLingo": "Crewlingo",
+  "onboardingMascotGreeting": "Hi there! I'm Ping — your Crewlingo guide!",
+  "continue": "Continue",
+  "careerMode": "Career Mode"
 }
